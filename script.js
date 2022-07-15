@@ -4,9 +4,9 @@ let currentRoundNumber = 1;
 
 // Write your code below:
 
-//generate a random secret number from 0 to 9
+//generate a random secret number from 0 to 10
 function generateTarget(){
-    return Math.floor(Math.random()*9);
+    return Math.floor(Math.random()*10);
 }
 
 //compare who is closer to sercret number, return true if human is bigger or equal to computer
